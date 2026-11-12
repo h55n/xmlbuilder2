@@ -31,4 +31,5 @@ jobs:
       env:
         CI: true
     - name: Upload coverage to Codecov
+      if: false
       uses: codecov/codecov-action@v5
